@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in | Miro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header_inner">
+      <a href="https://miro.com/index" class="header_logo">
+        <img src="images/header_logo.png" alt="Miro Logo" class="header_logo_img">
+      </a>
+      <div class="buttons">
+        <div class="lang">EN</div>
+        <a href="https://miro.com/signup" class="sign_up">
+          <div class="button_inner">Sign up</div>
+        </a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="form_inner">
+      <h1 class="form_title">Sign in to Miro
+      </h1>
+      <div class="login_by_buttom">
+        <button class="auth_button_sso" >SSO</button>
+        <button class="auth_button_google" title="Google"></button>
+        <button class="auth_button_sso" title="Microsoft 365"></button>
+        <button class="auth_button_sso" title="Expand">+</button>
+
+      </div>
+      <form action="/submit" method="POST">
+        <div class="email_block">
+          <h3 class="email_title">Email</h2>
+          <input type="text " value="ertaiergazy04@gmail.com" class="email">
+        </div>
+        <div class="password_block">
+          <h3 class="password_title">Password</h2>
+          <input type="text" class="password" value="Enter your password">
+        </div>
+      </form>
+
+    </section>
+    
+  </main>
+</body>
+</html>
