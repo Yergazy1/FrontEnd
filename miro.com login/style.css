@@ -1,171 +1,159 @@
-
-
-
 body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 100%;
-    margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 100%;
+  margin: 0;
 }
 .header {
-    border-bottom: 1px solid black;
-    padding: 30px 0;
+  border-bottom: 1px solid black;
+  padding: 30px 0;
 }
 .header_inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px;
-    margin: 0 30px;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin: 0 30px;
 }
 .buttons {
-    display: flex;
-    justify-content: space-between;
-    gap:10px;
-    align-items: center
-
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
 }
 .buttons > * {
-    width: 100px; 
-    height: 30px; 
-    display: flex;
-    justify-content: center; 
-    font-size: 20px;
-    align-items: center
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  align-items: center;
 }
 .lang:hover {
-    color: #3204b1;
+  color: #3204b1;
 }
 .header_logo_img {
-    width: 100px;
+  width: 100px;
 }
 button {
-    border-radius: 10px;
-
+  border-radius: 10px;
+  width: 100%;
 }
 .button_inner {
-    border: 0.5px solid black;
-    padding: 5px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    border-radius: 10px;
-
-
-    
+  border: 0.5px solid black;
+  padding: 5px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border-radius: 10px;
 }
 .button_inner:hover {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 main {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .form_inner {
-    margin: 40px 0;
-    width: 40%;
-    display: flex;
-    flex-wrap: wrap;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 20px 0px;
-    
-
+  margin: 40px 0;
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px 0px;
 }
 .form_inner > * {
-    flex: 1 1 100%; 
-    margin: 20px; 
-    padding-bottom: 10px;
-    text-align: left;
-    margin: 20px 40px 0 40px;
+  flex: 1 1 100%;
+  margin: 20px;
+  padding-bottom: 10px;
+  text-align: left;
+  margin: 20px 40px 0 40px;
 }
 .login_by_buttom {
-    border-bottom: 2px solid rgb(193, 192, 192);
-
+  border-bottom: 2px solid rgb(193, 192, 192);
 }
 h1 {
-    font-size: 40px;
+  font-size: 40px;
 }
 input {
-    outline: none;
+  outline: none;
 
-    width: 100%;
-    padding: 10px;
-    font-size: 15px;
-    border-radius: 10px;
-    border-color: rgb(168, 166, 166);
-    color: rgb(168, 166, 166);
-    height: 50px;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  border-color: rgb(168, 166, 166);
+  color: rgb(168, 166, 166);
+  height: 50px;
 }
 input:hover {
-    border-color: rgb(90, 60, 199);
+  border-color: rgb(90, 60, 199);
 }
 
 input:focus {
-    border-color: #007BFF; 
-    color: black;
+  border-color: #007bff;
+  color: black;
 }
 .forgot_password {
-    color: blue; 
+  color: blue;
+  display: block;
 }
 
 .forgot_password:visited {
-    color:blue; 
+  color: blue;
 }
 .sign_up {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 .checkbox_inner {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 10px;
-
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
 }
 .checkbox_inner > input {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    flex-basis: 7%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  flex-basis: 7%;
 }
 .submit {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    height: 50px;
-    border-radius: 10px;
-    background-color: blue;
-    color: white;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  height: 50px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
 }
 .login_by_buttom {
-    display: flex;
-    justify-content: space-between;
-    gap:15px
-    
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
 }
 .login_by_buttom > button {
-    height: 50px;
-    flex-basis: 22% ;
-    width: 17px;
+  height: 50px;
+  flex-basis: 22%;
+  width: 17px;
 }
-.login_by_buttom > button:hover{
-
-    background-color: black;
-    color: aliceblue;   
+.login_by_buttom > button:hover {
+  background-color: black;
+  color: aliceblue;
 }
 
-.auth_button_expand, #remove_added_buttons
-{
-    font-size: 30px;
-
+.auth_button_expand,
+#remove_added_buttons {
+  font-size: 30px;
 }
 
 .login_by_buttom img {
-    width: 25px;
+  width: 25px;
+}
+#register-form > * {
+  margin-bottom: 30px;
 }
